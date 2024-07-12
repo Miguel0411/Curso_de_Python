@@ -24,6 +24,7 @@ name_2 = 'Angel'
 apellido = 'Luna'
 print(name_2 + apellido)
 print(name_2 + ' ' +apellido)
+print(name_2,apellido)#Se añade coma
 #Replicación:
 print(5*(name_2+' '))
 print('============================================================')
