@@ -16,7 +16,7 @@ print(next(iterador))
 #Intentar obtener otro elemento despues de finalizar iteración:
 "print(next(iterador)) Genera excepción StopIteration"
 
-#Iterar a traves del texto:
+#Iterar a traves de cadenas texto:
 text="Hola miguel"
 iter_text =iter(text)
 for text in iter_text:
