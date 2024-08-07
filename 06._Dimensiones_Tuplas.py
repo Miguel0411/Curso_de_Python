@@ -8,7 +8,8 @@ como columna.'''
 matrix = [[1,2,3],
           [1,2,3],
           [1,2,3]]
-print(matrix)
+print(matrix) 
+print(type(matrix))   
 
 #Ahora buscamos por posiciones:
 print(matrix[0])
@@ -18,7 +19,7 @@ print(matrix[1][2])
 
 #Accedemos Matriz con varias listas:
 matrix2= [[[1,2,3],[1,2,3]],
-          [[1,2,3],[1,2,3]]]
+          [[1,2,3],[1,1,3]]]
 print(matrix2[1][1][1])
 
 '''Las Tuplas son Inmutables: No se puede hacer modificaciones.'''

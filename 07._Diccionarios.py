@@ -8,7 +8,9 @@ numbers ={1:'one',
 print(numbers)
 
 #Accedemos a sus elementos mediante indexación:
+print(numbers[1])
 print(numbers[2])
+print(numbers[3])
 
 numbers2 ={1:'uno','2':'dos'}
 print(numbers2['2'])

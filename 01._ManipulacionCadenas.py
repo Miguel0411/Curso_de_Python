@@ -48,7 +48,7 @@ print(name_3.strip());
 
 '''Uso parámero SEP:
 # El parámetro sep permite especificar cómo separar los elementos al imprimir.'''
-print("Nunca", "pares", "de", "aprender", sep=", ")
+print("Nunca", "pares", "de", "aprender", sep="/ ")
 #Nunca, pares, de, aprender
 
 '''Uso de END
