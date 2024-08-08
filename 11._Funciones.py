@@ -62,7 +62,7 @@ def calculadora():
                     print("La multiplicacion es: ",multiplicar(num1,num2))
             elif opcion ==4:
                 if ((num1>=num2)or(num2>num1))and(num2!=0):
-                    print("La división es: ",dividir(num1/num2))
+                    print("La división es: ",dividir(num1,num2))
                 elif (num2==0):
                     print("El divisor es 0, vuelve a intentar")
         else:    
